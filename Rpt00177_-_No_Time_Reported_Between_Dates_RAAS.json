@@ -1,0 +1,152 @@
+{
+"Report_Entry": [{
+   "Employee_Type": "Regular",
+   "Manager_ID": "139922",
+   "Manager_Email": "tgatz@pikepass.com",
+   "Worker": "Shannon, Tahrohon W",
+   "Employee_ID": "149950",
+   "Pay_Group": "Biweekly Pay Group",
+   "location": "Oklahoma City - 200 NE 21st Street",
+   "Manager": "Timothy Gatz",
+   "primaryWorkEmail": "TW.Shannon@odot.ok.gov"
+},
+{
+   "Employee_Type": "Regular",
+   "Manager_ID": "139922",
+   "Manager_Email": "tgatz@pikepass.com",
+   "Worker": "Alexander, Bobby Jack",
+   "Employee_ID": "176752",
+   "Pay_Group": "Biweekly Pay Group",
+   "location": "Oklahoma City - 3400 N Martin Luther King Avenue",
+   "Manager": "Timothy Gatz",
+   "primaryWorkEmail": "bobby.alexander@odot.org"
+},
+{
+   "Employee_Type": "Regular",
+   "Manager_ID": "139922",
+   "Manager_Email": "tgatz@pikepass.com",
+   "Worker": "Grimsley, James L",
+   "Employee_ID": "231276",
+   "Pay_Group": "Biweekly Pay Group",
+   "location": "Oklahoma City - 3400 N Martin Luther King Avenue",
+   "Manager": "Timothy Gatz",
+   "primaryWorkEmail": "James.Grimsley@odot.org"
+},
+{
+   "Employee_Type": "Regular",
+   "Manager_ID": "139922",
+   "Manager_Email": "tgatz@pikepass.com",
+   "Worker": "Peterson, Robert Arthur",
+   "Employee_ID": "336741",
+   "Pay_Group": "Biweekly Pay Group",
+   "location": "Oklahoma City - 3400 N Martin Luther King Avenue",
+   "Manager": "Timothy Gatz",
+   "primaryWorkEmail": "bob.peterson@odot.org"
+},
+{
+   "Employee_Type": "Regular",
+   "Manager_ID": "139922",
+   "Manager_Email": "tgatz@pikepass.com",
+   "Worker": "Junk, Thomas M",
+   "Employee_ID": "337757",
+   "Pay_Group": "Biweekly Pay Group",
+   "location": "Oklahoma City - 3400 N Martin Luther King Avenue",
+   "Manager": "Timothy Gatz",
+   "primaryWorkEmail": "michael.junk@gov.ok.gov"
+},
+{
+   "Employee_Type": "Regular",
+   "Manager_ID": "139922",
+   "Manager_Email": "tgatz@pikepass.com",
+   "Worker": "Freymiller, Don Hilton",
+   "Employee_ID": "339204",
+   "Pay_Group": "Biweekly Pay Group",
+   "location": "Oklahoma City - 3400 N Martin Luther King Avenue",
+   "Manager": "Timothy Gatz",
+   "primaryWorkEmail": "dfreymiller@odot.org"
+},
+{
+   "Employee_Type": "Regular",
+   "Manager_ID": "139922",
+   "Manager_Email": "tgatz@pikepass.com",
+   "Worker": "LaForge, Stephen Joseph",
+   "Employee_ID": "339329",
+   "Pay_Group": "Biweekly Pay Group",
+   "location": "Oklahoma City - 3400 N Martin Luther King Avenue",
+   "Manager": "Timothy Gatz",
+   "primaryWorkEmail": "steve.laforge@odot.org"
+},
+{
+   "Employee_Type": "Regular",
+   "Manager_ID": "139922",
+   "Manager_Email": "tgatz@pikepass.com",
+   "Worker": "Dyson, David Brian",
+   "Employee_ID": "339331",
+   "Pay_Group": "Biweekly Pay Group",
+   "location": "Oklahoma City - 3400 N Martin Luther King Avenue",
+   "Manager": "Timothy Gatz",
+   "primaryWorkEmail": "ddyson@odot.org"
+},
+{
+   "Employee_Type": "Regular",
+   "Manager_ID": "139922",
+   "Manager_Email": "tgatz@pikepass.com",
+   "Worker": "Coburn, John Robert",
+   "Employee_ID": "339332",
+   "Pay_Group": "Biweekly Pay Group",
+   "location": "Oklahoma City - 3400 N Martin Luther King Avenue",
+   "Manager": "Timothy Gatz",
+   "primaryWorkEmail": "bob.coburn@odot.org"
+},
+{
+   "Employee_Type": "Temporary",
+   "Manager_ID": "139442",
+   "Manager_Email": "akimzey@odot.org",
+   "Worker": "Girgis, Alexander",
+   "Employee_ID": "339824",
+   "Pay_Group": "Biweekly Pay Group",
+   "location": "Oklahoma City - 200 NE 21st Street",
+   "Manager": "Amy Kimzey",
+   "primaryWorkEmail": "Alexander.Girgis@ODOT.ORG"
+},
+{
+   "Employee_Type": "Regular",
+   "Manager_ID": "135565",
+   "Manager_Email": "JEmbree@odot.org",
+   "Worker": "Bowles, Brian",
+   "Employee_ID": "366630",
+   "Pay_Group": "Biweekly Pay Group",
+   "location": "Buffalo - 18985 US Highway 64 W",
+   "Manager": "Jerry Embree"
+},
+{
+   "Employee_Type": "Regular",
+   "Manager_ID": "100168",
+   "Manager_Email": "Melissa.Jolly@odot.ok.gov",
+   "Worker": "Moery, Maggie",
+   "Employee_ID": "366706",
+   "Pay_Group": "Biweekly Pay Group",
+   "location": "Oklahoma City - 200 NE 21st Street",
+   "Manager": "Melissa Jolly"
+},
+{
+   "Employee_Type": "Regular",
+   "Manager_ID": "131995",
+   "Manager_Email": "DJackson@odot.org",
+   "Worker": "Bensley, Tyler",
+   "Employee_ID": "366718",
+   "Pay_Group": "Biweekly Pay Group",
+   "location": "Atoka - 5374 E Bruno Road",
+   "Manager": "Billy Jackson"
+},
+{
+   "Employee_Type": "Regular",
+   "Manager_ID": "133610",
+   "Manager_Email": "JLaird@odot.org",
+   "Worker": "Barker, Derrick",
+   "Employee_ID": "366756",
+   "Pay_Group": "Biweekly Pay Group",
+   "location": "Watonga - 12329 US Highway 270",
+   "Manager": "Jerry Laird"
+}]
+}
