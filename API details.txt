@@ -1,0 +1,13 @@
+[8:50 AM] Jerry Schnellbacher
+https://wd2-impl-services1.workday.com/ccx/service/customreport2/okgov/ISU_RPT00169/RPT00169_-_Reported_Time_Not_Approved_RAAS?End_Date=2023-12-21-08%3A00&Start_Date=2023-11-01-07%3A00&Active_Employees_only_=0&format=json
+[8:50 AM] Jerry Schnellbacher
+Username  ISU_RPT00169  
+[8:50 AM] Jerry Schnellbacher
+pw Zmu6qJ#8H29xb
+ 
+[8:52 AM] Jerry Schnellbacher
+https://wd2-impl-services1.workday.com/ccx/service/customreport2/okgov/ISU_RPT00177/Rpt00177_-_No_Time_Reported_Between_Dates_RAAS?End_Date=2023-12-21-08%3A00&Start_Date=2023-12-01-08%3A00&Include_Subordinate_Organizations=0&format=json
+[8:52 AM] Jerry Schnellbacher
+ISU_RPT00177
+[8:52 AM] Jerry Schnellbacher
+Zmu6qJ#8H29xb
