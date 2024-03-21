@@ -1,0 +1,268 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="LaunchLogin" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1126,3457" sap2010:WorkflowViewState.IdRef="LaunchLogin_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="LaunchLogin" sap:VirtualizedContainerService.HintSize="546,3392" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Edge: V3locity" sap:VirtualizedContainerService.HintSize="484,3281" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" OpenMode="Always" ScopeGuid="15d6408b-b055-4330-8611-7f3656d6ca35" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,3064" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="strLoadedSSN" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'abc'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="15d6408b-b055-4330-8611-7f3656d6ca35" Text="apamulapati" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://egiduat.v3locity.com/app?service=home" DesignTimeRectangle="778, 630, 340, 42" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'abc'" FullSelectorArgument="&lt;webctrl id='username' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='username' tag='INPUT' type='text' class='gwt-TextBox' aaname='' /&gt;" Guid="a0328d28-1844-4fbe-864f-fb1aea7a61f3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAVgAAAAuCAYAAABtYAEoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKOSURBVHhe7drRSmJBHMBh39DX6QEMXyEiu+nCR/GiEoOglG6CwIuEEEMIwdnmONroyi5uO4L2ffAH50x2+WOaUy0AUITAAhSyNbDdbjdcXV2F09PTcHJyYowxZsvERsZWxmZusxbY5+fn0Gq1wuXlZXh5eQnT6TTtALApNjK2MjYztvP9/T3tLKwF9uzsrPrB+XyengDwN7GZDw8P4fHxMT1ZWAX2+vo6nJ+fpxUAu+r3+2E0GqVVFth4vI2bAPyb8XgcBoNBWmWBbTQaYTKZpBUAu5rNZqHX66VVFtj4RgyA77m5uUmfBBbgvxJYgEIEFqAQgQUoRGABChFYgEIEFqAQgQUoRGABCtl/YDvNUKu3wzAtAY6VwAIUUi6wMaS12mqanez5Z2DbzeVeMyy3os7qefYdgANUJrDDdqjX6qGdjqnDdv3r1JrCW0+bVVBTSaufW1a1+h3r8QU4JPu5IsivBarAZuFchXQY2nWnVuB4FAts/qd+NXlg8zvYVWA7oelaADgiZQK7eUr90wl2tXaCBY7LHgK7COfmHewypPkdbP55cbL9uscFODSFrghSVKvrgc9IdrIXVuk0u/ovgvy6YO17TrPAYdvPSy6AH0hgAQoRWIBCBBagEIEFKERgAQoRWIBCBBagEIEFKERgAQoRWIBCtga20WiEyWSSVgDsajabhV6vl1ZZYFutVuj3+2kFwK7G43EYDAZplQX2/v4+XFxchPl8np4AsIt4SH17e0urLLBRPMXG0AKwm3hyfXp6SquFtcDG8t7e3laRfX19DR8fH2kHgE2xkbGVsZndbjdMp9O0s7AW2KXRaFSV+O7urnojZowx5veJjYytjM3cZmtgAfg+gQUoIoRfDK6KW2G63S8AAAAASUVORK5CYII=" InformativeScreenshot="fef856b1636c4eee07ddb2e49200fd45.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='V3locity' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="15d6408b-b055-4330-8611-7f3656d6ca35" Text="Anki1234@" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://egiduat.v3locity.com/app?service=home" DesignTimeRectangle="778, 692, 340, 42" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FriendlyName="'INPUT password'" FullSelectorArgument="&lt;webctrl id='password' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='password' tag='INPUT' type='password' class='gwt-PasswordTextBox' aaname='' /&gt;" Guid="ab8d9d59-769a-4d98-ba89-3d009fce512a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAVgAAAAuCAYAAABtYAEoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANdSURBVHhe7dnBSutAFIDh+9IFH6Bu8gQiVgK+R15ALZUK2uJGcFMsSKkUpNBzcyYn7UxM0Nh73Nz/gwFnMm2y+pnGPwIAcEFgAcBJa2DH47FcXV3J6empnJycMBgMBqNlaCO1ldrMNklgn5+fZTQayeXlpby8vMhms7ErAIAmbaS2Upup7Xx/f7crlSSwZ2dnYeNut7MVAMBXtJkPDw/y+PhoK5V9YK+vr+X8/NxmAIC+ZrOZLJdLm0WB1eOtXgQA/MxqtZL5fG6zKLDD4VDW67XNAAB9bbdbmUwmNosCq/8RAwAc5+bmxv4isADwTxFYAHBCYAHACYEFACcEFgCcEFgAcEJgAcAJgQUAJwQWAJwQ2A6LIpNBVsjC5gDQF4HtQGABHMsnsItCskEuhUZqMChHJkVUqhCvsN64Ns2j9Vymtty2Hr4jr3dMJS+vHabl/jqO4Vk6vjPLqmv13v19MslzAgvgOI6BLUNlxUtOgyFih9BN83qfRvIQW/1MFiYd63qPOKJlLHPblH52YH/bvZLniOJuz1w98kKKLNoLAD/gGNj41JpGMnY4iXbt+cZ6Gct8Ws5DEDWOth6eIzq1xs/VCH2Yx0FtzgGgJ9dXBPt4JZG002H4KW6j/m1vp8iwFsetY11PpPrRaflzvljo9+o99V5272ZE4+doBDQ5ZSsCC+BIv3OCjebNkB1OsKlvrZcRzIqphVWn5T2KMoxJsKPAxs/VDOhXcwDoyfUdbP3uM45qGlg9UdoJthFD3bd/19q2Xk3Cu9f9u1gNrr6L3Re1+v7Od7BJQKu91Wd5BwvgeK6vCHINmgb008/0aD0KXYhvfS2KW9d6HcIkuMm9SmHNPhtfazuh6prtzQuNN4EF8HO/9A4WAP4/BBYAnPgEFgBAYAHAC4EFACcEFgCcEFgAcEJgAcAJgQUAJwQWAJwQWABw0hrY4XAo6/XaZgCAvrbbrUwmE5tFgR2NRjKbzWwGAOhrtVrJfD63WRTY+/t7ubi4kN1uZysAgD70kPr29mazKLBKT7EaWgBAP3pyfXp6slklCayW9/b2NkT29fVVPj4+7AoAoEkbqa3UZo7HY9lsNnalkgS2tlwuQ4nv7u7Cf8QYDAaD8XloI7WV2sw2rYEFAByPwAKAC5G/2uEq+EKoF/sAAAAASUVORK5CYII=" InformativeScreenshot="581ca95e647fc18d78b450593bc0b9df.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='V3locity' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Log In'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="15d6408b-b055-4330-8611-7f3656d6ca35" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://egiduat.v3locity.com/app?service=home" DesignTimeRectangle="787, 710, 323, 40" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Log In'" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' class='gwt-Button' aaname='Log In' check:innerText='Log In' /&gt;" Guid="2626c843-8b0b-4093-ac4a-a4656ce83e82" ImageBase64="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" InformativeScreenshot="83106c03a2275be83f24f8155b33c8c2.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='V3locity' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'search'" sap:VirtualizedContainerService.HintSize="388,52" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="15d6408b-b055-4330-8611-7f3656d6ca35" Version="V3">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,256" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;Login success&quot;]" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,258" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;Login failed&quot;]" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="https://egiduat.v3locity.com/app?service=home#worldnavigation" DesignTimeRectangle="381, 93, 230, 30" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'search'" FullSelectorArgument="&lt;webctrl class='wrapper' tag='TABLE' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;div&amp;gt;div' tableCol='2' tableRow='1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='wrapper' tag='TABLE' /&gt;&lt;webctrl type='' class='FPWU3ID-Gb-l' aaname='' tag='DIV' check:text='search' /&gt;" Guid="a30a9695-a614-4898-8543-361ac1660166" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAOoAAAAiCAYAAABRL0WXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAO5SURBVHhe7d3vS1NRHMfx/id7KOQ/EEFFPosK0yIze1ogzAchSoSakELlHoilkEvQBgruwQq2KYwlGzlkEUJjojCUMabw7Z6zc3+ce8/UW+fOGR/h9WD3nHvnkzfn7jrvvdTWPUkA0NoQKsAF0DDUjv5p6hycp7tDEXo0ukT9r6MAoBlrizXWGZrnzalaZDyhXn4wRTcH5ujJ+BflgQEgGKy5GwMf6XLPlNQkI4V6pe89db9cVB4EAJqja2SRt+hsUwr1ulGzakcAaC7WorNNK9SOp9M43QVoEaxF56pqhXrL+DCr2gEAzgdr0hPqveHPysl/IxTdpkypSpUjsn5q1SrtbG9TOKzeBwBkd4Yi3lB7R5eVk/2JUXjrgGoiTuXP0QFtRGOKfQHA6eGrJW+oqol+vcnakdbKexRfS9EwG/uQornvu7RXFYNGrIlF7/4AINMfarhAO+JUt7KTo5ByTo7yItZaqaCeAwAW7aGOb1XqBR7u0oxi3LK6S2U+sUIbnxTjF91CjmKbBYosKMYAfNIeaqzE66Pyz7Ry3Jam7CGbeUyFddW4DkmKpH/Rt02HZEYxLwAIFTTSHmpin3dKxax63MnPXP9EpFKYGYqmczQhzQsIQgWNtId69hU1QRl+7hvQinqGUCbiBfVKu5JvsAoboRuvo3F2bMd2/l72/Fg8ab9/3D4W326+B4AP2kP1/xm1TDHV+D8TK2qjFZTHmBe/owhwxTWHkYKvz5OPWd/midCM14xZej8Af7SH6vuq7+8f3nFt3J9R7RV2JinHxV7Lp8kmZ8SKoBsF6F7R3a8BfNAfqsH5d9TKfpFWVhMi2K80s16kovl31CZf8a2f6rJYFBeZGNcprnOsUaj8mKpVG6GCRoGEeqZvJlUr4osPx1TMphTHCIIdmntFtbkvQmFFhfMXUKh1p33XN1Y6FlsDiJWF4TqVra+oIip3YMb8KA+3HqoVI593Qqhim/ozKkIFPQIN9XQpSuwHFavq9FZe+aSrvs6IRJxcMn/yisrwCM3jiGgRKmh0zqEyQcYK8H9ogVAZxApwEk+o7F9qVBODZ8ZqhLqVxhf1AQTlv7ndfrGgnNwcKZpbw2oK4MSa9ISKG5sBtBbnDc6sUNt731HfGG5uBtAKeseWqf3xW2+ozLXns8qdAKC5rj6btbpkpFDbeiapa0TfTc4AwL/7I4u8RWebcqgG9kgLdlt93OMXoLlYc+xxMqxBd5eeUE38IVEhPCQKIEjWQ6IGfT4kCgBaD0IFaHmT9Aew4m0ZTgUipwAAAABJRU5ErkJggg==" InformativeScreenshot="e3b9cf86d1db30df829c1c983deaf6bc.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='V3locity' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NCheckState.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NCheckState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="HardwareEvents" ScopeIdentifier="15d6408b-b055-4330-8611-7f3656d6ca35" Text="563121179[k(Enter)]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://egiduat.v3locity.com/app?service=home#worldnavigation/1966479/tapestry/WorldPages:MemberDemographics" DesignTimeRectangle="431, 99, 180, 18" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl class='wrapper' tag='TABLE' /&gt;&lt;webctrl tableCol='2' tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl class='wrapper' tag='TABLE' /&gt;&lt;webctrl type='text' class='FPWU3ID-Gb-m FPWU3ID-Gb-c FPWU3ID-Gb-b' tag='INPUT' aaname='' check:text='' /&gt;" Guid="edf921e6-9811-4f02-938a-7adc818d10ae" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALYAAAAWCAYAAABt7GbqAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG9SURBVGhD7du9SgNBGIVh78l7svYGLG2tBF0Eq2BjUIwKAX8gCTGgpjBqRBHxp7bQwnb0LJzwZWY2TLEBGY7wEHd2Mtu8OybCLiyvt51IDpqde7d5cOUWlwqnsCUbRevaXdy9K2zJy8r2ufv8/lHYkh/8KGzJjsKWLP27sLeOhq5z81q+xs6LpIiGvdrourPhy983y4+J9uXz1BvnRWFLHYKwGbUNeW13UB7jHMfmRWFLHYKwU8La7z1Ed/LGySi6y+PGwJqt/qPrjd4m47gGjjkf6/L6mGvHeQ2RFEHY3LEhtkMjXoSHWBksxvx59gbhPLsmx/xoGTvjt9ez80RmCcIGxs0dE6EhOJxDcDZGHDNCy0YfuwGqgrU3ROxYJEU0bB9CRtw7p7dTwRPDZsD2XFXYWDP2V0FhSx2SwrZh+js2cZf3I68KG79jDOc4Bgpb6hCEjYCOB09TkxAyI/SDxPxmZzwJm/HiddaOzTH/JvFD9o9FUgRh+5+vwYYMiJHn7OdvxgxYgzHHwga8r+q/IlzTPxZJEYQtkgOFLVlS2JIlhS3ZKR80+NKDBpKZ4lCPhkmG9rpjt1E+zFu4X9koNr4TTnGwAAAAAElFTkSuQmCC" InformativeScreenshot="70cbc9a7091785e0c4c4cc42e9c4d5d9.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='V3locity' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="381, 93, 230, 30" ElementType="InputBox" FriendlyName="'search'" FullSelectorArgument="&lt;webctrl class='wrapper' tag='TABLE' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;div&amp;gt;div' tableCol='2' tableRow='1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='wrapper' tag='TABLE' /&gt;&lt;webctrl type='' class='FPWU3ID-Gb-l' aaname='' tag='DIV' check:text='search' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAOoAAAAiCAYAAABRL0WXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPZSURBVHhe7d3dSxRRGMfx/ib1UtB/IIIKvQsLX3oxtdsCyS5KlCg1S4VSL8RaIU3SFhTciy3YXYVlk5UU2QihZUVBlGVR4WnO2ZnZeXlWnTqzrvEb+FzsnDOz3nw5s+M6XqpsHiYAKG8IFeACKBpqbccY1T+ZopvdM3Svb446XgUBQDHRlmisvmtKNse1KLhCrbo9Qtc7A9Q+8IU9MQD4QzR3rfMDVbWM2JoUbKHWtI1S8/NZ9iQAUBqNvbOyRWubtlCvajVzBwJAaYkWrW2aodY+GMPlLkCZEC1aV1Uz1Drtwyx3AACcD9GkK9RbPZ/YyX+jK7hJiUyOskdkboe5HG1tbtL4OH8MANg1dM+4Q23tm2cnexOi8fV9OtTjZLejfVoJhphjAcDqzos5d6jcRK+GkoVID/d2KLwUox4x9j5Gge/btJPTB7VYI7Pu4wHATn2o4yna0i91s1tr1MXOWaMNPdbDTIqfAwAm5aEOrGfzBR5s0wQzblrcpj05MUsrH5nxi256jUKrKZqZZsYAPFIeaigj66O9n3F2vCBOyQMx85hSy9y4ClGaif+ib6sW0QQzzwcIFRRSHmpkV3ZK6SQ/buVlrnd6pLYwExSMr9GgbZ5PECoopDzUs6+oEUrIa1+fVtQzhDIYTvEr7cJGkVVYC117HQyLc1v2y/cqzA+Fo4X3DxfOJfcb7wHggfJQvX9G3aMQN/7P9BW12AoqY9zQf0Y9wAXHHMEWfH6e/Zz5fa4IjXiNmG3vB+CN8lA93/X9/cM9rozzM2phhZ2I2uMSr+2XyQZrxEzQxQJ0rujO1wAeqA9VY/09anY3TQuLET3YrzSxnKa08XvUEt/xzV/qiliYm0yC4xLXOlYsVHlObtVGqKCQL6Ge6ZtJuaz+xYdjSidjzDn8UAjNuaIWOG9CYUWF8+dTqHmnfdc3lDnW9/oQqwjDcSmbX1H1qJyBafODMtx8qGaMct4Joer7+M+oCBXU8DXU08UosutXrNzlrX3ls931tUakxylFN05eUQUZoXEePVqECgqdc6iCn7EC/B/KIFQBsQKcxBWq+JMabqL/jFi1UNfj+KI+gI79M7cbT6fZyaURo8ASVlMAK9GkK1Q82AygvFgfcGaGWt36jtr68XAzgHLQ2j9P1fffukMVrjyaZA8CgNK6/HDS7FKwhVrZMkyNveoecgYA3jX1zsoWrW3aQ9WIf2khHquPZ/wClJZoTvw7GdGgs0tXqIaa9lGqexyghmfTdPflZ3kSAFBLtCUaq+sKyOYqmoZYZqj5HW+ootHwGgDKhAxVRIoNG7Zy3Yj+ANYmBRdlAveQAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NGetText DisplayName="Get Text 'SSN'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="15d6408b-b055-4330-8611-7f3656d6ca35" TextString="[strLoadedSSN]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://egiduat.v3locity.com/app?service=external/WorldPages:MemberDemographics&amp;sp=l1966479" DesignTimeRectangle="290, 304, 146, 20" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'563-12-1179'" FullSelectorArgument="&lt;webctrl id='tapestry' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;invisible&amp;gt;div&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table' idx='2' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='INPUT' aaname='SSN:' /&gt;" FuzzySelectorArgument="&lt;webctrl id='tapestry' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='text' tag='INPUT' aaname='SSN:' class='firstColumnInput ssn SS nowrap disabled' /&gt;" Guid="80b5de5d-0596-43e0-908e-d7903ce2dcaa" ImageBase64="" InformativeScreenshot="8b66e83249890321e61db8e38851119a.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='V3locity' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="169, 303, 120, 14" ElementType="Text" FriendlyName="'SSN'" FullSelectorArgument="&lt;webctrl id='tapestry' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;invisible&amp;gt;div&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table' idx='2' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl id='tapestry' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='LABEL' class='mediumLabel' aaname='SSN:' check:innerText='SSN:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHwAAAASCAYAAACZ4LqUAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAENSURBVGhD7ZbLEcMgDETpkLIohVJ8oQ/KUPgYWwhickqYaN+MZ2wvyeVFqxgCqoBwZUC4MiBcESEEKfwgZwyZ63LpDecpPzPXfyJ6O7wDv0EIr8Ksj+fzKeuS+llujCV2BMI3ohcePVkhq0ksvlZ5ubfkXBJsPbVjnfDyHbI1wLcQEx7J21rV84Fc5VW4j/Xc7RgTvguTHZ44XJHarsHV27wJz7f5TJ1kCN+HuXDOtMYZXc6E5ydX9z2E70MvPE/lIIbV8yoXwtuPoex0CN8CMeFZmKjwUs18glc5E54o052rH8K3YFLpVeq9o3uBz/kovDXAJRz/0n/KeoeDvwLClQHhyoBwZUC4MkII9AIxeNuqvnIrAgAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Enrollment'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="15d6408b-b055-4330-8611-7f3656d6ca35" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://egiduat.v3locity.com/app?service=home#worldnavigation/1966479/tapestry/WorldPages:MemberDemographics" DesignTimeRectangle="13, 352, 138, 27" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Enrollment'" FullSelectorArgument="&lt;webctrl aaname='Enrollment' parentid='verticalMenu' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Enrollment' parentid='verticalMenu' tag='A' type='' class='' check:innerText='Enrollment' /&gt;" Guid="696030f4-5aba-4f89-b4d0-d051d732671a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAI4AAAAfCAYAAAAxx/XuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGuSURBVHhe7ZYxcsIwEEV9OWYoOA8NHUegIiUXoKNKQ81QcQBcMcMJ0m5ka2UvtiFhsQkZXvFmLMv6Euyz5Ox0Osl+v5f8/AXwIx+fZ8nzXBAH7gJxwAXigAvEAReIAy4QB1wgDrhAHHCBOOCiB3G2Ms0yyboYr2TXOcbPehZyZ9twfZTFOJPR8th6BoanN3Gmm66+/vlLcXbLySAvw38Ece4AcWqeI85mHo6uuUyLousxVhX8sJKR6Us5pSD6bBTF3G+Jk65X9bFZFLjMNm3NaB6v9do1Zzavx4W1rYu+8jfoPeQZ9hunKoj+6ZUsZXsii0O41uLanePyzY75qf+WOFWR05pShs4R12PHpT5dSytH2youO07NU3ecWIyALdZF4QoahQ3Ygt3ecdKYZtussZzPrEUzu3PsfIhjeUFx2nm9imOPHEsrM86NON2w41yAOL/lBcVpFijmp2I+LM6Vvu4cxLnGoB/HlSx3ilNQFizlaOGq+w+JU7fb+bfFiWstxlzbsd6HHsSBdwRxwAXigAvEAReIAy4QB1wgDrhAHHCBOOACccAF4oCLKE4u36zFQfDj7hZXAAAAAElFTkSuQmCC" InformativeScreenshot="93c9c1f3ae7e237f8f2ea890e1a19d6a.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='V3locity' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'more_vert'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="15d6408b-b055-4330-8611-7f3656d6ca35" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://egiduat.v3locity.com/app?service=external/EnrollmentPages:Policies&amp;sp=l1966479" DesignTimeRectangle="158, 217, 24, 26" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'more_vert'" FullSelectorArgument="&lt;webctrl id='tapestry' tag='IFRAME' /&gt;&lt;webctrl aaname='Actions' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='tapestry' tag='IFRAME' /&gt;&lt;webctrl aaname='Actions' tag='BUTTON' type='' class='material-icons material-icon-button-legacy listSelectorTool listSelectorActions' check:innerText='more_vert' /&gt;" Guid="2dbf3384-a8ee-441e-89ce-a9cb1d818b5d" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABwAAAAeCAYAAAA/xX6fAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB1SURBVEhLY0ibeeY/PTHDzN0v/tMTM+w8+/Q/PfGohVTHQ9fCzcva/1tKMvxnkHT/n7vsLlY1IEwlC3f9z1ADWsYAxWoN/6dhVTd0LaR7kBKPh66Fo6kUhodqkBKPh66Fo6kUhodqkBKPRy2kOh61kMr46X8AHJrKIxsmqi8AAAAASUVORK5CYII=" InformativeScreenshot="72bdaf640a9262af6c9c78914409d438.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='V3locity' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Change Existing'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="15d6408b-b055-4330-8611-7f3656d6ca35" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://egiduat.v3locity.com/app?service=external/EnrollmentPages:Policies&amp;sp=l1966479" DesignTimeRectangle="165, 270, 97, 26" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Change Existing'" FullSelectorArgument="&lt;webctrl id='tapestry' tag='IFRAME' /&gt;&lt;webctrl aaname='Change Existing' tag='INPUT' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl id='tapestry' tag='IFRAME' /&gt;&lt;webctrl aaname='Change Existing' tag='INPUT' type='button' check:text='Change Existing' /&gt;" Guid="3b481b7e-1243-4ad2-8495-94a77804e48e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGUAAAAeCAYAAAA1mdDNAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANCSURBVGhD7ZpLbhNBEIbnJCCQYJmN7+AjZAPsAqzBK18gW0fyFrY2UkBJJIR4iMQGCSPLViwF7EVkmU1WvOQTFF39mK6a6Z4H4HgMbemTJtPV3VX/Xz2Rk4kWiwUEqkU0Go1gE5lMJjCbzWA+nzsL22Si5XIJhq/ff8LbwRkcvZvCq/FFYMUc9D7B8+MhnM89pnz7sYQnL4dw534Drly7AVEUBVYM6ox6d158ZMbEpuAJwQDX5MBquXX3ARy+/pA25bD/Ga5ev+mcFFgteGIOTs7SpuAzzjUhcDmg/sGUihFMqSDMlN1aDWqCYMp6SZmyO8g5KY2+HDd02zt8rLcPWzR+zWx3+PcBZ94pdqDZu4C9hmvM0IK98RSadbwuEl8czK+4KdIQkwiikokLrKopnZZz7M+gpvxdSpiSMMBQ34fuuA/beK1Nacbdqe9LsAjbqbFQev4e6WjacVtt8xeFqYgR17HAKh/XHEqmKYkmknvJWN757LSRcZNXs07if7seC44zU7y/U+RmOZ0hT5JJQidOiogNpWvJazsmBTBCsT21qboIJnbqBFvyTgqKpPYW68cGEZGZcXif5mOuk6aUr4eSMsV7UuSCtPMdSHFsjO28RBwtiCUqICIk59ufVUG2A4koOtbAujyG7KeF7rL5PlMoWaaUrUfHajDHEqbQYhwkCmCbSsMcwiTNJmskuzxpCl/P8WgV5J0USUp4brLcN7VHlill69GxGtynmCl643ThmJxOwmtKsrNJQRlFJJPm6+U0iCbfFJV/U6xta+OmWOh9mkMxU/z16FhNCVMEuAETQyUTL1zQFHm/gClqzOyn1jB7MbFlnEvEfFNwXM3DWtIic+FoTHlTsuqhMFMKfaOXxojFDHRRrynGCDWn224VK4LNU93MBbJ5uB5diDRFxzDEOlxwQZwLEdm7j7mPIhc0ReCvx4Lj5UxZG6pwn/ibh7+eapuSdSo3kYL14NiGnJT/h2BKBQmmVBCnKeHfwevD/+/g96fhxYk1gS9OHL0ZWFPMy23D0Sk8enoMt+89DCfmkkCdUe/Hz074K0bmAjmff5Evh+FLYviMC6wW1BlPCOpOfdjY11b/ZSIIn4p9AH4B/CdAvsnbnDsAAAAASUVORK5CYII=" InformativeScreenshot="4ca751162a602629354dde6f331fd791.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='V3locity' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Event'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="15d6408b-b055-4330-8611-7f3656d6ca35" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://egiduat.v3locity.com/app?service=home#worldnavigation/1966479/tapestry/EnrollmentPages:Policies" DesignTimeRectangle="843, 421, 17, 22" DesignTimeScaleFactor="1" FriendlyName="'DIV'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;table' idx='6' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='DIV' class='FPWU3ID-yb-l' aaname='' /&gt;" Guid="fc8dc9fb-7355-4793-bd3f-e33e33d1f82e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABUAAAAaCAYAAABYQRdDAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVEhL7dVLCsIwEAbgXkmk9xB16dLbaI8jeARvILrQheC2QtNH2qRj/pZI0wd97wz8CTMNXwe6qEUzrHnQ0/lC992ecI5JcVmP11vtFgmZDs719jRg6+N5Geq67qBo2EA93x+FIkwZBuqH4Wg0SRITDTmfHuWqMTkqhKygQgiSUmZnl34FlWlqoHEck711aLE60HJ9/AE4UaOP57jXiOZ7dVIN4MR0xbo8KV7QiiJcfUAN6aBGv3w3CIJuKBJFkTEh6rp7vVAEkL1xGkGkN4owxmr7OoPQtvzRP1pAUUzx40P0yiedeM2AEn0BAz7P6Zuv2PcAAAAASUVORK5CYII=" InformativeScreenshot="5f70d2c9e72798f4c039a66784f48b1f.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='V3locity' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="330, 421, 175, 17" ElementType="Text" FriendlyName="'Event'" FullSelectorArgument="&lt;webctrl aaname='Event:' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Event:' tag='LABEL' type='' class='FPWU3ID-jb-e' check:innerText='Event:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALMAAAAVCAYAAAANUd8AAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEdSURBVGhD7djbDYMwDEDRbJixMkpGYRTGcCGY4IDES1Cp7j1SPqomfN1aoUEAJ4gZbhAz3CBmuEHMcIOY4QYxww0TcycpBAmbFSX3uuVBXQoS33gw/tYm5tTpx5cRM552OuZ1fH2OEubNfZZYJ3kanqS6JCEmSbGd8uWs7i/PLOfNOeCG85O5hJllyrmXPAQ67W3PjdHXfeOZ+t10Zv4BMJnxtOM78xxmmZ56f7aTtARrpurOd3aaEzOeduHOvEzj5oqh07ddGn0zzYkZ77r0AjjHOIZY962CbRAzvuhSzEON+qJnX9bacyVYe80gZnzJ8Z15WEvg7UtcVSMfl/lfeifmKXoN2t6zgZtMzMBvI2a4Qcxwg5jhBjHDCZEPPXyGKZm+7qAAAAAASUVORK5CYII=" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Correction'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="15d6408b-b055-4330-8611-7f3656d6ca35" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://egiduat.v3locity.com/app?service=home#worldnavigation/1966479/tapestry/EnrollmentPages:Policies" DesignTimeRectangle="496, 454, 200, 20" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Correction'" FullSelectorArgument="&lt;webctrl tableCol='1' tableRow='2' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='DIV' class='FPWU3ID-Hb-d FPWU3ID-M-b v3-widget-EVENT_DEFINITION-VC_EVENT_NAME-column-value-v3columnconfig' aaname='Correction' check:innerText='Correction' /&gt;" Guid="6b71378e-7ceb-41c2-9700-5e5cf4551fc7" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMwAAAAYCAYAAAC2jRLLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG7SURBVHhe7ZdBkoMgEEU9IKfiJN7EC+QM3sI1Iw1IS8JgT0xm81L1qgI06OI/W6ew/x6PR9i2DQAGIAyAAYQBMIAwAAYQBsAAwgAYQBgAA9eEWXyYpunAzevruo+zBD+5MK/x/xpmNwW/tDUAn2MsjMhSQhpJQf0fabQwAN9nIExHjnUObvJhKWPdgdwcVpnPe52Teb+041pT9p67RZSjrMVr6dooTRofe+SedH2ej/fmfPCnvXkNwMjvwkgIBwHLQT0J4Jfmf7uW9i5ejU+d7CzDOu+SSV3vlSzJVcSWc4u4Webn+0tnA1i4IIx6Wr9CnuClq+Sx6gi1O7XjFPKjQ2gButftCNPWa9GP+0lrVb5cC2Dg7Q4jAdTCHOFVgZa1dqxfuSoiVBPySkeYp3pV1wiNMPAOf/uGkUDmgDaBrOG9IkxHxrs7DMLATQyE2REBdLBTUI/QSTiLCHptJEzzDXM6J4pRa2sX6wiT67vfMAgDNzEWJiLSpFcmoQ2cXj/CORamzJW9p06WBUprpXuU+ihNc97L+h2EgRu5JgwACAgDYABhAAwgDIABhAEwgDAABhAGwADCAFxmCz/w4GYPBVgicgAAAABJRU5ErkJggg==" InformativeScreenshot="a00a7082116201ecc8cb03e1509083b6.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='V3locity' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="388,52" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+              <ui:CommentOut.Body>
+                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,268" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Midyear enrollment/chan…'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="15d6408b-b055-4330-8611-7f3656d6ca35" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="https://egiduat.v3locity.com/app?service=home#worldnavigation/1966479/tapestry/EnrollmentPages:Policies" DesignTimeRectangle="496, 491, 200, 20" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Midyear enrollment/chan…'" FullSelectorArgument="&lt;webctrl tableCol='1' tableRow='2' tag='TABLE' /&gt;&lt;webctrl tableRow='3' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='DIV' class='FPWU3ID-Hb-d FPWU3ID-M-b v3-widget-EVENT_DEFINITION-VC_EVENT_NAME-column-value-v3columnconfig' aaname='Midyear enrollment/change' check:innerText='Midyear enrollment/change' /&gt;" Guid="ebc3a662-d062-4e4d-bd5e-bde208d85b04" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMwAAAAYCAYAAAC2jRLLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOWSURBVHhe7ZhRct0gDEW9QG+nn/1hJd6JN5A1vF28b4oEgisZCO60mcZVZ85MDEjAla6ddIvp38fHR3y/347jfIIbxnFu4IZxnBu4YRznBm4Yx7mBG8ZxbuCGcZwbzA3zOuK+bXHbj/hSc6947Gl82+PxknUhnmpN5nXsnfhvDt73DF9zv47GZ9hiOGGNgeb349Wdc36PBcPscd+LMXA8jdGcGu/ghvlDXAxzxjB4SQlumD/PgmFCPFLTo/Bkgv04UsEGXxhqIvoypfkQimFsY7Hp5Fm+WBn11qy5zBznI9Om8V7D8pkkzpxtDzHU/cT0+Qz0Imj7DM6F9633ymtD0kX2Jc2oaXM8Nvc8b6gxMkfmkLGSR+lXXkxljdQqG4bqVGLDmfchprr29CHg3GWNPrvE4F2fxZJhztoUNE6ikYhUxI5hinBZyCIwx8L6tC6brhW2FpMLiXl1TD0HrqNnRW4wKSbnV3HmfLw3/jyK69y3aoN3lfXSvHlu7b5mneTDPROoXzsDzTWdOb5Xl0917ekzWzfR+2GsGQabncZYDDN2aaCSA55JyFYIKZgWW4rUngHMzQVrDXRZh3P2fDDHTQCGqU14OQfMd+9r4nFNgu6e5yb35ZjWyOq+Kh/FtHUtd4krcOPWF4C9D4D7fKJP99wmxt79SSwapjV7E7BvGPUWImwxKJbW1zW5gfKnvCENwEXHOcyF+yBcQBMnZzVx44awjQ2NiQ1R85l40zStqSf3NTHqrGqOcsjPed+RYdq4Pt+qrrreqIc1jMmHxn8Qy4ZhUcIBopOAV8NYwfVzLrT+mwjySIzAhRg0kN0HuTG39AaF50tj13xmvWl+bZjBfU2MOuulFnTmvE4bozE0DMUv6rqkj4l5MuuG4Z/pzSFCDwzD4yJsFhXFzG823TA8Jg1Q9rkW1uSaFgnPUIoueZYbopwL95u+IEy80kQ37/C+JkadFeYoHs/Jd6h3anfHPS8NXveZ69r0MftwDjnHRO+HsW4YEVYKPTRMoojJgtL/GkEBbEEyJXeJsUXO42mvE/bp5gFKI9ZYMeiwIaChJIc5V53D+9Z8Jt5o0mteyVvHezrWs+am3LYf8Sf8/SKwCU2+oWHU/nNd0TAqTv22kRjp/TDmhvkL6CI63xY2yHONMeILDVPeTrOvgvNPg18xQn+N/w++/AvjON8ZN4zj3MAN4zg3cMM4zg3cMI5zAzeM4yzzjr8AEVOpmPtKpnYAAAAASUVORK5CYII=" InformativeScreenshot="dbc4f1c28528d8082e7782b8509568c0.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='V3locity' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                </Sequence>
+              </ui:CommentOut.Body>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:CommentOut>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Start Date'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="DebuggerApi" ScopeIdentifier="15d6408b-b055-4330-8611-7f3656d6ca35" Text="03/21/2024" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://egiduat.v3locity.com/app?service=home#worldnavigation/1966479/tapestry/EnrollmentPages:Policies" DesignTimeRectangle="495, 483, 115, 22" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;table' idx='9' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='text' tag='INPUT' class='FPWU3ID-jc-d FPWU3ID-jc-k FPWU3ID-jc-f' aaname='Start Date:' /&gt;" Guid="d73802fb-5140-4cff-8de6-2a64664578d3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHcAAAAaCAYAAACNU8MOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKeSURBVGhD7Zq9btYwFIa/++QmWLKizr4DtmxMbFAJVfLGUFUVoIiBgZ+2CCkjUFhaYc6PHfvYSROl0ackOq/0qnZ8fGKfx8639OBUu5XC3bE6uOb0Sr0Dv33y1D17+Yks4Kp2oMPB3d3/IyvcvQngfrz5SVa4e9MUuAcIUm1QwK25/kVWuHsTcPtw9Zt8XLhN7aq68Z1l1FrjjG19T4Vw3327JT8I11RVAaOp4Rk858etswb7tRNRCHFgLj1qLedOLWJD3tTZO0gYZ5xtOT6HjOAr88I9h/nZUngf9WtXzxorV7IaAbfLr7fkcbgVFs8/hPLihrHYvL8IIS1sOAAlMJ+L4KZ5fR5joRX7aU4CJeagcD0eOuVMDwCO+Xg8bF1uUBo7d2ytAm4XX/6QR+AaV9fJZw82a6xNTrSHUMPzrghQVGjb/IRjYUIMFSkHxblEXhkA0wBwmhOLn/TxUIU5absvd5w2d2ylAm7nn/+SR+HaJkJpALRt+famGza2gb/xlmBR88+X+G3shcsxPCfkLQLEzcF3iGKH8SyOFG5hfhtRc8fWKOD26vyaPA6Xfs88VNpcH9y2g8cHgAsf4YYcobsEXFxH+YmkHN36pGhNPe9FzR1bnYDb6cV38gS4XDADcLjY/XCp8BjjT7eEm4FYAi69r+cmiQOQ6aHbN3dsbQJuby5/kCfBlTAG4Io21iOBi8XpQIN64fL8Mm9UhM/tAj5K4bqz9y15GlyhIbhSKVxsp2xLuJwnFrDMy5/bMAfH+9YGUrjHhIsxWbEJAIynlvQZtohJc8AahoqtcKfBXURY7KULg8UWh0HV6ZhwB38bH6HiM6+KGoV7csIO0v52+oNwQ5B6ux6FG6T97fWH4Kq3795/kFPtTwp3t3LuPxRBsZDb554gAAAAAElFTkSuQmCC" InformativeScreenshot="42bcb44e8aba652fc441e63ad0f52701.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='V3locity' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="315, 483, 175, 17" ElementType="Text" FriendlyName="'Start Date'" FullSelectorArgument="&lt;webctrl aaname='Start Date:' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Start Date:' tag='LABEL' type='' class='FPWU3ID-jb-e' check:innerText='Start Date:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALMAAAAVCAYAAAANUd8AAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGJSURBVGhD7ZjbbcQgEEXdIf3kMz+UQikuxWVMzMsMM4BINvnI7D2SJS+vYaXju3gPAsAIkBmYATIDM0BmYAbIDMwAmYEZIDMwg5D5JH8cdDyXv1sqsc9RuMrHbRbzrkCuqxev3Ro/3Q+wCpM5i+yYHVdwTOi/kln0nX5TaMgMeprMI7GK4P68KDiZnLnvSVRfMrys49L4D/pU8xjDmtFntt6wzmg/vC3uObZFIP27wJK5ydBE4HAp8tgnxbmU6X5TponMKZ1duKss6oh1uwdgO92BJfQLYBLhuwnH+pSgr8gs4WvJe77X/BCMH0pgFS0zZ5GEUvonCdOczRfHiczprF5lntUZyNyP68//wD5N5iiNijKecFqeYWr/gsztyLCoM70H7wpLZinOTUrFmTxtbP7Xo/S9KrOqOakj1u3OzGld8V2AecQxI8vTfqq5aPUFMbdlsfI4F86W4Ermfl5Hka7V0+OmddS69XMdWxdZPEzAFOszMwD/CMgMzACZgRkgMzADZAZGIPoCxD7EhV/XbqgAAAAASUVORK5CYII=" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'AP'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="15d6408b-b055-4330-8611-7f3656d6ca35" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://egiduat.v3locity.com/app?service=home#worldnavigation" DesignTimeRectangle="1836, 99, 21, 18" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'AP'" FullSelectorArgument="&lt;webctrl aaname='AP' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='AP' tag='DIV' type='' class='FPWU3ID-Q-c' check:innerText='AP' /&gt;" Guid="3a2b6020-e246-4273-a11a-bba4db35dc28" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABkAAAAWCAYAAAA1vze2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEXSURBVEhL7ZO9DoIwEID7TjyCky/C5OTg5huwMjCayAuwsPMCRidjYuLPIIRoMHE/aXtFOA6MxMbFL2mgtL2vvStiNF3AMSvAFoe0ALHep9i1h8CnVX4ryeMQHDcAx9/ilyYbvxyT40ybxDnO0nRIcojmAXh+VC4KIbrg5xpKMk/KmYRLAhMi4iUrE3wLHrMzSaekRGWhNsZK6gG6gr2VuBFssM9IyO6rU+muoU9Cx9qSVlAtpRegU6LW99ZEF5wGpMeXKImUM81b4SSkKcGbwS2Urb64L12UhoTbsaZ9woESPlUGvYFXrYZJsGA0nxXkJxsk0YXkUmXAk2LgwTWxxV/yEWJ3vuKrPcR4toT09sDu9zlld3gCySUD0kPaMIcAAAAASUVORK5CYII=" InformativeScreenshot="57b1dd62a511808b26a6c34143cba200.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='V3locity' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Logout'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="15d6408b-b055-4330-8611-7f3656d6ca35" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://egiduat.v3locity.com/app?service=home#worldnavigation" DesignTimeRectangle="1766, 150, 116, 22" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Logout'" FullSelectorArgument="&lt;webctrl aaname='Logout' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Logout' tag='SPAN' type='' class='FPWU3ID-gb-b' check:innerText='Logout' /&gt;" Guid="036745fb-9fbc-4ae3-b447-6db90fdcfbb5" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHgAAAAaCAYAAAB8WJiDAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFGSURBVGhD7ZVNCoMwEEZ7p96pp/ECuUHX3sFdD5CdK3FZEAR30/wYHaO1haa1Gb6BJ8QJVub5pSelFJ0vQCLWLQQLBoKFA8HCgWDhQLBwIFg4BwrWVBNRXW31QCogmFG25oVavdnLFQhmQHBSXgt2Aw8VDZ736vZurncqQ//aUOdbpga6Xfl9tmbvUOjBb7clSPLfCnYD7xsq3Nrv7XTl+xUXWtGtt1bCevlcL27s7Qi2ayQ4KXuCvbRJqIELX4ngwhfyLex3IPiX7Ale92bBa/lc6jL5FghGgiH4G+wJjpPo9378H7z5HAj+En7Yq2LHqxt4qGjwc88kUkepdUkNxRMbhI/VNu7jmD6yUfjyiM+bAwUnxIoRJCUlWQp2KZwSPR7Rwo7WVGSa4Oh4R3qfkqlg8C4QLBwIFg4ECweChQPBwlFK0QNy7+LEKjFRbwAAAABJRU5ErkJggg==" InformativeScreenshot="c076cb5086b67343e67a7882337e9368.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='V3locity' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAABHElEQVQ4T2OAgcZ9jgZAvB+K+6HCpAGgxgQg/g/FDVmNk9cD8X4gboAqIQxAtsMMKZhUCzLgPwgndCwx8J1+3AGEoUpxA6Dm8yAD6ne6nwdqfg8yIKVtfj9Q838oxm8IULMCzBVFUytAXgC5Yj9Q432oAQlQpbgBUPN8kAG1W/xhBoA0ggwB0YTDBMkVIC/cRzOAsAtAAKh5PciQ/N5mcDggGUA4IEEAqLkAZAAsHGAGQKUJA6BmUOKCGfAeqBmE10OliQMgAwom1r5PaZsHiwHinA8DYAMm1P+P7NsEsn0/VJh4ADIgo2naf/9pR0C2G0CFiQdVq6P/x/SsBWkmLuqQASgQc2Y0gzTPhwqRBmo2BQaET9iGJ2szMAAA83fYr6uMeLgAAAAASUVORK5CYII=" InformativeScreenshot="5f534b0f983d8edc10e27072dbd01175.jpg" Selector="&lt;html app='msedge.exe' title='V3locity' /&gt;" Title="V3locity" Url="https://egiduat.v3locity.com/app?service=home" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
